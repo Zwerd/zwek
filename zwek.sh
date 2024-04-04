@@ -1,5 +1,5 @@
 #!/bin/bash
-# this is zwerd script called zwerd web enumeration killer
+
 # Usage message
 usage() {
     echo "Usage: $0 <engine> <url> <wordlist or directory> <options>"
@@ -41,7 +41,7 @@ generate_output_filename() {
 }
 
 # Check if the wordlist or directory is within /usr/share/wordlists
-if [[ "$wordlist_or_dir" == "/usr/share/wordlists"* ]]; then
+if [[ "$wordlist_or_dir" == "/usr/share"* ]]; then
     if [ ! -f "$wordlist_or_dir" ]; then
         echo "Wordlist '$wordlist_or_dir' not found."
         usage
