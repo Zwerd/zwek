@@ -61,6 +61,6 @@ else
         output_file=$(generate_output_filename "$engine" "$url" "$filename")
 	echo $output_file
 	"$engine" -u "$url" -w "$wordlist" -o "$(pwd)/$output_file" $options
-        sleep 5  # Optional delay
+        sleep 5  # Optional delay so we able to see what command was run
     done
 fi
