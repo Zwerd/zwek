@@ -1,6 +1,7 @@
 # Zwerd Web Enumeration Killer tool  
 This is a zwerd tool that I created for my OSCP certification,
-the idea is to have way to run webenumeration in one tool istead of using dirb or feroxbuster or dirbuster
+the idea is to have way to run web enumeration in one tool intead of using dirb or feroxbuster or dirbuster and other tools
+Also that script create local files named of the search engine and used wordlist, so we can run unix command for grap the information from them easely
 
 # How to run
 /usr/local/sbin/zwek <engine> <url> <wordlist or directory> <options>
