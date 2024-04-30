@@ -20,4 +20,4 @@ feroxbuster_10.0.0.1:80_catala.txt
 ....
 
 #### Note
-I have another tool called *webenum*, that tool work better then this one.
+I have another tool called **webenum**, that tool work better then this one.
