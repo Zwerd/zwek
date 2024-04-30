@@ -6,12 +6,12 @@ Also that script create local files named of the search engine and used wordlist
 ### How to run local
 /usr/local/sbin/zwek <engine> <url> <wordlist or directory> <options> 
 
-# Example:
+### Example:
 zwek feroxbuster http://10.0.0.1:80/ /usr/share/dirb/wordlists/common.txt "-e -x php jsp html js"
 or
 zwek feroxbuster http://10.0.0.1:80/ dirb "-e -x php jsp html js"
 
-# output file:
+### output file:
 feroxbuser_10.0.0.1:80_common.txt
 or
 feroxbuster_10.0.0.1:80_small.txt
@@ -19,5 +19,5 @@ feroxbuster_10.0.0.1:80_euskera.txt
 feroxbuster_10.0.0.1:80_catala.txt
 ....
 
-# Note
+#### Note
 I have another tool called *webenum*, that tool work better then this one.
